@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>UKOS Strona</title>
 </head>
 
-    <h1>O mnie</h1>
+    <h1 style="color: aqua; text-align: center;">O mnie</h1>
     <p>Maciej -  student informatyki na PJATK w Gdańsku.<br> eoo</p>
 <div>
-    <p><b>Moje hobby:</b></p>
-    <ol>
-        <li>programowanie</li>
-        <li>gotowanie</li>
-        <li>tenis</li>
-        <li>narciarstwo</li>
+    <p class="Lista"><b>Moje hobby:</b></p>
+    <ol id="Hobby">
+        <li id="Hobby1">programowanie</li>
+        <li id="Hobby2">gotowanie</li>
+        <li id="Hobby1">tenis</li>
+        <li id="Hobby2">narciarstwo</li>
     </ol>
 </div>
 <div>
@@ -25,7 +26,7 @@
 </div>
 <div>
     <table>
-        <tr>
+        <tr class="Lista">
             <th>Programowanie</th><th>MAD</th><th>Angielski</th>
         </tr>
         <tr>
@@ -45,7 +46,7 @@
             <input type="text" name="Surname">Nazwisko<br>
             <input type="text" name="IndexNumber">Numer indeksu<br>
             <input type="url" name="GIT">Link do git'a<br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="Przycisk">
         </fieldset>
     </form>
 </div>

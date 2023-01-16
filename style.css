@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+}
+div{
+    background-color: red;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 2px;
+    padding-bottom: 2px;
+    float: left;
+}
+table{
+    border-style: dotted;
+    border-width: 50%;
+}
+th{
+    border-style: dashed;
+}
+td{
+    border-style: double;
+}
+tr:nth-child(odd){
+    color: rebeccapurple;
+}
+tr:nth-child(even){
+    color: black;
+}
+.Lista{
+    color: brown;
+    font-size: 24px;
+}
+#Hobby{
+    list-style-type:upper-roman;
+}
+#Hobby1{
+    color: blueviolet;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Hobby2{
+    color: crimson;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Przycisk{
+    background-color: tomato;
+    border-style: dotted;
+}
+
